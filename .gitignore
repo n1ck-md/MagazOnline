@@ -1,0 +1,15 @@
+# Build results
+bin/
+obj/
+
+# VS cache
+.vs/
+*.user
+*.suo
+
+# JSON backups
+*.json.backup
+
+# Others
+*.log
+*.tmp
