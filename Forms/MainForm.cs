@@ -293,7 +293,7 @@ namespace MagazOnline.Forms
                             Text = $"  • {numeProd} x {cant} @ {pretUnit:0.00} RON = {subtotalProdus:0.00} RON"
                         });
 
-                        if (!estePreasamblat)
+                        if (estePreasamblat)
                         {
                             double taxa = 100 * cant;
                             subtotal += taxa;
@@ -402,6 +402,7 @@ namespace MagazOnline.Forms
         {
             InitializeComponent();
             SetupEventHandlers();
+            btnAddProduct.ForeColor = Color.Black;
             //orders
             this.ordersTableAdapter.Fill(this.database1DataSet.Orders);
             //products
