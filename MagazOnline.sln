@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagazOnline", "MagazOnline.csproj", "{5C02AB62-2E7B-4395-BA3C-E4E66025589F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste", "..\Teste\Teste.csproj", "{A2FC0E3A-F15B-43E6-9F34-9A12A490F081}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5C02AB62-2E7B-4395-BA3C-E4E66025589F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C02AB62-2E7B-4395-BA3C-E4E66025589F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C02AB62-2E7B-4395-BA3C-E4E66025589F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2FC0E3A-F15B-43E6-9F34-9A12A490F081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FC0E3A-F15B-43E6-9F34-9A12A490F081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FC0E3A-F15B-43E6-9F34-9A12A490F081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FC0E3A-F15B-43E6-9F34-9A12A490F081}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
